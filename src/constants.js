@@ -28,7 +28,7 @@ import CvRamanGlobalUniversity from "./assets/education_logo/CvRamanGlobalUniver
 
 // Project Section Logo's
 import project1 from "./assets/work_logo/projext1.png";
-
+import project2 from "./assets/work_logo/project2.png"
 export const SkillsInfo = [
   {
     title: "Frontend",
@@ -130,7 +130,7 @@ export const projects = [
     title: "TechBlog-Full_stack",
     description:
       "A full-stack Blogging platform that enables users to explore Blogs,Likes Blog, manage favourites, and handle account activities, while providing admins with complete control over Blog, categories",
-    image: project1,
+    image: project2,
     tags: [
       "HTML",
       "CSS",
