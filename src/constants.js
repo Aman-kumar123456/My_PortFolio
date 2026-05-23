@@ -1,4 +1,3 @@
-// Skills Section Logo's
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
@@ -22,15 +21,13 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 
-
 // Education Section Logo's
-import Ancollege from './assets/education_logo/Ancollege.png';
-import Smhs from './assets/education_logo/Smhs.jpg';
-import CvRamanGlobalUniversity from './assets/education_logo/CvRamanGlobalUniversity.png'
+import Ancollege from "./assets/education_logo/Ancollege.png";
+import Smhs from "./assets/education_logo/Smhs.jpg";
+import CvRamanGlobalUniversity from "./assets/education_logo/CvRamanGlobalUniversity.png";
 
 // Project Section Logo's
-import project1 from "./assets/work_logo/projext1.png"
-
+import project1 from "./assets/work_logo/projext1.png";
 
 export const SkillsInfo = [
   {
@@ -78,11 +75,10 @@ export const SkillsInfo = [
   },
 ];
 
-
 export const education = [
   {
     id: 0,
-    img:CvRamanGlobalUniversity,
+    img: CvRamanGlobalUniversity,
     school: "C V Raman Global University,Bhubaneswar",
     date: "oct 2022 - July 2026",
     grade: "8.01 cgpa",
@@ -91,7 +87,7 @@ export const education = [
   },
   {
     id: 2,
-    img:Ancollege,
+    img: Ancollege,
     school: "Anugrah Narayan College ,Patna",
     date: "April 2019 - April 2021",
     grade: "76%",
@@ -100,7 +96,7 @@ export const education = [
   },
   {
     id: 3,
-    img:Smhs,
+    img: Smhs,
     school: "Sinha Model High School , patna",
     date: "April 2018 - April 2019",
     grade: "79%",
@@ -116,9 +112,36 @@ export const projects = [
     description:
       "A full-stack e-commerce platform that enables users to explore products, search items, manage carts, place orders, and handle account activities, while providing admins with complete control over products, categories, and order management",
     image: project1,
-    tags: ["HTML", "CSS", "JavaScript", "React JS","Express.js","Node.js","MongoDb", "API"],
-    github:
-      "https://github.com/Aman-kumar123456/E-commerce-Full_stack",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Express.js",
+      "Node.js",
+      "MongoDb",
+      "API",
+    ],
+    github: "https://github.com/Aman-kumar123456/E-commerce-Full_stack",
     LiveDemo: "https://e-commerce-full-stack-fzgf.vercel.app",
+  },
+  {
+    id: 1,
+    title: "TechBlog-Full_stack",
+    description:
+      "A full-stack Blogging platform that enables users to explore Blogs,Likes Blog, manage favourites, and handle account activities, while providing admins with complete control over Blog, categories",
+    image: project1,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Express.js",
+      "Node.js",
+      "MongoDb",
+      "API",
+    ],
+    github: "https://github.com/Aman-kumar123456/TechBlogs_full-stack",
+    LiveDemo: "https://tech-blogs-full-stack.vercel.app",
   },
 ];

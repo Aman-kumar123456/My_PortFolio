@@ -13,8 +13,8 @@ const Skills = () => (
       <h2 className="text-3xl sm:text-4xl font-bold text-white">SKILLS</h2>
       <div className="w-24 h-1 bg-[#45ec6f] mx-auto mt-2"></div>
       <p className="text-gray-400 mt-4 text-lg font-semibold">
-        A showcase of my technical skills, tools, and technologies used to
-        build modern and scalable applications.
+        A showcase of my technical skills, tools, and technologies used to build
+        modern and scalable applications.
       </p>
     </div>
 
